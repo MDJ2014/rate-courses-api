@@ -1,0 +1,25 @@
+{
+  "name": "techdegree-fullstackjs-course-review-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js localhost 5000"
+  },
+  "author": "Mark Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^4.0.0",
+    "mongoose-seeder": "^1.2.1",
+    "nodemon": "^1.9.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "basic-auth": "^1.1.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "mongoose": "^4.9.3",
+    "mongoose-deep-populate": "^3.0.0"
+  }
+}
